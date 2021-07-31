@@ -1,0 +1,20 @@
+.navigation {
+    background-color: $black;
+	&__list { 
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 50px 0;
+    }
+	&__paragraph { 
+        margin: 0 10px;
+    }
+	&__link {
+        text-decoration: none;
+        font-size: 25px;
+        color: $green;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

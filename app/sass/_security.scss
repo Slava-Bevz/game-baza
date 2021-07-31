@@ -1,0 +1,19 @@
+.security {
+    background-color: $gray;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+	&__text { 
+        font-size: 17px;
+    }
+	&__politics { 
+        font-size: 20px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

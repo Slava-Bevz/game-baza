@@ -1,0 +1,10 @@
+.offers-box {
+    margin-bottom: 100px;
+	&__title { 
+        color: $yellow;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 34px;
+        padding-left: 15px;
+    }
+}

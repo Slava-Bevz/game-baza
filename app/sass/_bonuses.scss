@@ -1,0 +1,46 @@
+.bonuses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    margin-right: 30px;
+    margin-left: 15px;
+    width: 100%;
+    border: 2px solid $green;
+    &:hover {
+        box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+        transition: 0.3s;
+    }
+	&__info { 
+        width: 500px;
+        max-width: 100%;
+    }
+	&__title { 
+        color: $yellow;
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+	&__text { 
+        color: $green;
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    &__email {
+        outline: none;
+        border: 2px solid transparent;
+        border-radius: 50px;
+        font-size: 22px;
+        padding: 10px 25px;
+        transition: 0.3s;
+        &:hover {
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+            transition: 0.3s;
+        }
+        
+    }
+	// &__svg-box { }
+	&__svg { 
+        height: 140px;
+    }
+}

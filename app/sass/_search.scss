@@ -1,0 +1,40 @@
+.search {
+    position: relative;
+	&__input { 
+        border: 2px solid transparent;
+        border-radius: 50px;
+        width: 250px;
+        font-size: 22px;
+        padding: 10px 20px 10px 45px;
+        transition: 0.3s;
+        -webkit-appearance: none;
+        &::-webkit-search-decoration,
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-results-button,
+        &::-webkit-search-results-decoration { 
+            display: none; 
+        }
+        &:focus {
+            width: 300px;
+            outline: none;
+            border: 2px solid $green;
+            transition: 0.4s;
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+        }
+        &:hover {
+            width: 300px;
+            border: 2px solid $green;
+            transition: 0.4s;
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+        }
+    }
+	&__btn { 
+        position: absolute;
+        top: 15px;
+        left: 18px;
+        border: 0;
+        height: 20px;
+        width: 20px;
+        background: url(../img/search.svg) no-repeat center;
+    }
+}

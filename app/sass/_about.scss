@@ -1,0 +1,33 @@
+.about {
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	&__box { 
+        margin-bottom: 100px;
+    }
+	&__title { 
+        font-size: 30px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        color: $yellow;
+        border-bottom: 1px solid $green;
+    }
+	&__list { 
+        list-style: none;
+        padding: 0;
+    }
+	&__text { 
+        margin-bottom: 20px;
+    }
+	&__link { 
+        font-size: 25px;
+        line-height: 40px;
+        text-decoration: none;
+        color: $green;
+        &:hover {
+            font-size: 27px;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+	&__list { 
+        margin: 0 15px;
+    }
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    &__youtube {
+        fill: #46B004;
+        transition: 0.3s;
+        &:hover {
+            fill: #FF0000;
+            transition: 0.3s;
+        }
+    }
+    &__vkontakte {
+        fill: #46B004;
+        transition: 0.3s;
+        &:hover {
+            fill: #2787F5;
+            transition: 0.3s;
+        }
+    }
+    &__facebook {
+        fill: #46B004;
+        transition: 0.3s;
+        &:hover {
+            fill: #4867AA;
+            transition: 0.3s;
+        }
+    }
+    &__instagram {
+        fill: #46B004;
+        transition: 0.3s;
+        &:hover {
+            fill: #F33289;
+            transition: 0.3s;
+        }
+    }
+}

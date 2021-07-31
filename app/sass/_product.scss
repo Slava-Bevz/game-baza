@@ -1,0 +1,64 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+	&__box { 
+        position: relative;
+        padding: 15px;
+        margin: 0 15px;
+        border: 2px solid $green;
+        transition: 0.3s;
+        &:hover {
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+            transition: 0.3s;
+        }
+        &:hover .product__img {
+            top: -10px;
+            left: 5px;
+            height: 330px;
+        }
+    }
+    &__image {
+        position: relative;
+        display: block;
+        height: 330px;
+        max-height: 100%;
+    }
+    &__img {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        height: 300px;
+        max-height: 100%;
+        margin-bottom: 30px;
+    }
+	&__text { 
+        color: $orange;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    &__price {
+        color: $orange;
+        margin-bottom: 35px;
+        font-size: 35px;
+    }
+	&__button { 
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        border: 3px solid $green;
+        border-radius: 50px;
+        padding: 15px 30px;
+        text-decoration: none;
+        color: $green;
+        font-size: 23px;
+        transition: 0.3s;
+        margin-bottom: 20px;
+        &:hover {
+            transition: 0.3s;
+            font-size: 24px;
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+        }
+    }
+}

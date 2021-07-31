@@ -1,0 +1,12 @@
+.adress {
+    color: $green;
+    font-size: 25px;
+    transition: 0.3s;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        transition: 0.3s;
+        text-decoration: underline;
+        text-shadow: 4px 4px 8px $green, 0 0 3em $green;
+    }
+}

@@ -1,0 +1,10 @@
+.footer {
+    background-color: $black;
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding-bottom: 50px;
+    }
+}

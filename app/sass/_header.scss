@@ -1,0 +1,12 @@
+.header {
+    &__box {
+        background-color: $black;
+        border-bottom: 2px solid $green;
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+}
