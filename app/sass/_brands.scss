@@ -1,25 +1,131 @@
 .brands {
     margin: 0 15px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 	&__box { 
         display: flex;
     }
 	&__logo { 
         display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
         border: 2px solid $green;
+        margin: 5px;
         height: 150px;
         max-height: 100%;
         width: 400px;
         max-width: 100%;
+        transition: 0.3s;
+        &:hover {
+            box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+            transition: 0.3s;
+        }
     }
-    // &__logo-svg {
-    //     height: 150px;
-    //     max-height: 100%;
-    //     width: 350px;
-    //     max-width: 100%;
-    // }
+    &__logo-svg {
+        position: absolute;
+        top: auto;
+        left: auto;
+        height: 150px;
+        max-height: 100%;
+        width: 350px;
+        max-width: 100%;
+    }
+    &__logo-ryzen {
+        transition: 0.3s;
+        fill: gray;
+        &:hover {
+            transition: 0.3s;
+            fill: red;
+        }
+    }
+    &__logo-samsung {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #034ea2;
+        }
+    }
+    &__logo-vaio {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #4d5269;
+        }
+    }
+    &__logo-xerox {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #d40e2a;
+        }
+    }
+    &__logo-hp {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #0096d6;
+        }
+    }
+    &__logo-acer {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #83b81a;
+        }
+    }
+    &__logo-intel {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+           fill: #0071c5; 
+        }
+    }
+    &__logo-fujitsu {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #e60012;
+        }
+    }
+    &__logo-epson {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #003f98;
+        }
+    }
+    &__logo-dell {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #0382c7;
+        }
+    }
+    &__logo-compaq {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: #e00024;
+        }
+    }
+    &__logo-amd {
+        fill: gray;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            fill: blue;
+        }
+    }
 //     &__asus {
 //         background: url(../img/Asus.svg) no-repeat center;
 //     }

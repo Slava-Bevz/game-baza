@@ -510,7 +510,7 @@ body {
 
 .brands {
   margin: 0 15px;
-  margin-bottom: 150px; }
+  margin-bottom: 100px; }
   .brands__box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -519,6 +519,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    position: relative;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -526,10 +527,122 @@ body {
         -ms-flex-align: center;
             align-items: center;
     border: 2px solid #46B004;
+    margin: 5px;
     height: 150px;
     max-height: 100%;
     width: 400px;
+    max-width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo:hover {
+      -webkit-box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+              box-shadow: 0 0 10px 5px rgba(70, 238, 4, 0.7);
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+  .brands__logo-svg {
+    position: absolute;
+    top: auto;
+    left: auto;
+    height: 150px;
+    max-height: 100%;
+    width: 350px;
     max-width: 100%; }
+  .brands__logo-ryzen {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    fill: gray; }
+    .brands__logo-ryzen:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: red; }
+  .brands__logo-samsung {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-samsung:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #034ea2; }
+  .brands__logo-vaio {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-vaio:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #4d5269; }
+  .brands__logo-xerox {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-xerox:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #d40e2a; }
+  .brands__logo-hp {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-hp:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #0096d6; }
+  .brands__logo-acer {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-acer:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #83b81a; }
+  .brands__logo-intel {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-intel:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #0071c5; }
+  .brands__logo-fujitsu {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-fujitsu:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #e60012; }
+  .brands__logo-epson {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-epson:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #003f98; }
+  .brands__logo-dell {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-dell:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #0382c7; }
+  .brands__logo-compaq {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-compaq:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: #e00024; }
+  .brands__logo-amd {
+    fill: gray;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .brands__logo-amd:hover {
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      fill: blue; }
 
 .about {
   margin: 0 15px;
